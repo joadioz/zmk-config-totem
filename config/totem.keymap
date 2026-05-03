@@ -30,24 +30,14 @@
     };
 
     behaviors {
-        double_menu: double_menu {
+        new_behavior: new_behavior {
             compatible = "zmk,behavior-hold-tap";
-            label = "DOUBLE_MENU";
-            bindings = <&mo>, <&mo>;
+            label = "NEW_BEHAVIOR";
+            bindings = <&mo>, <&tog>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <1>;
+            tapping-term-ms = <180>;
             hold-trigger-key-positions = <34>;
-        };
-
-        shift_ctrl: shift_ctrl {
-            compatible = "zmk,behavior-hold-tap";
-            label = "SHIFT_CTRL";
-            bindings = <&kp>, <&kp>;
-
-            #binding-cells = <2>;
-            hold-trigger-key-positions = <20>;
-            tapping-term-ms = <1>;
         };
     };
 
@@ -56,10 +46,10 @@
 
         base {
             bindings = <
-                              &kp Q  &kp W  &kp E  &kp R  &kp T               &kp Y      &kp U            &kp I      &kp O    &kp P
-                              &kp A  &kp S  &kp D  &kp F  &kp G               &kp H      &kp J            &kp K      &kp L    &kp RIGHT_ALT
-&shift_ctrl LCTRL LEFT_SHIFT  &kp Z  &kp X  &kp C  &kp V  &kp B               &kp N      &kp M            &kp COMMA  &kp DOT  &kp LEFT_ALT   &kp LEFT_CONTROL
-                                            &mo 3  &mo 2  &double_menu 1 3    &kp SPACE  &kp RIGHT_SHIFT  &mo 4
+                  &kp Q  &kp W  &kp E  &kp R  &kp T                &kp Y      &kp U            &kp I      &kp O    &kp P
+                  &kp A  &kp S  &kp D  &kp F  &kp G                &kp H      &kp J            &kp K      &kp L    &kp RIGHT_ALT
+&kp LEFT_CONTROL  &kp Z  &kp X  &kp C  &kp V  &kp B                &kp N      &kp M            &kp COMMA  &kp DOT  &kp LEFT_ALT   &kp LEFT_CONTROL
+                                &mo 3  &mo 2  &new_behavior 1 3    &kp SPACE  &kp RIGHT_SHIFT  &mo 4
             >;
         };
 
