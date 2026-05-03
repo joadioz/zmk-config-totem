@@ -25,12 +25,18 @@
     };
 
     macros {
-        pregunta: pregunta {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            label = "¿";
-            bindings = <&kp RA(SLSH)>;
-        };
+pregunta: pregunta {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    label = "¿";
+    bindings = <
+        &macro_press &kp LALT
+        &macro_tap &kp KP_1
+        &macro_tap &kp KP_6
+        &macro_tap &kp KP_8
+        &macro_release &kp LALT
+    >;
+};
     };
 
     keymap {
