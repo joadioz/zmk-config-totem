@@ -25,6 +25,15 @@
     };
 
     macros {
+<<<<<<< HEAD
+=======
+        pregunta: new_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_ALT &kp NUMBER_1 &kp NUMBER_6 &kp NUMBER_8>;
+>>>>>>> parent of 0ee97c0 (Updated totem.keymap)
 
     };
 
