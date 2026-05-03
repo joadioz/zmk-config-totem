@@ -25,18 +25,22 @@
     };
 
     macros {
-pregunta: pregunta {
-    compatible = "zmk,behavior-macro";
-    #binding-cells = <0>;
-    label = "¿";
-    bindings = <
-        &macro_press &kp LALT
-        &macro_tap &kp KP_1
-        &macro_tap &kp KP_6
-        &macro_tap &kp KP_8
-        &macro_release &kp LALT
-    >;
-};
+        pregunta: pregunta {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            label = "¿";
+            bindings =
+                <&macro_press>,
+                <&kp LALT>,
+                <&macro_tap>,
+                <&kp KP_1>,
+                <&macro_tap>,
+                <&kp KP_6>,
+                <&macro_tap>,
+                <&kp KP_8>,
+                <&macro_release>,
+                <&kp LALT>;
+        };
     };
 
     keymap {
@@ -80,10 +84,10 @@ pregunta: pregunta {
 
         unnicode_simbols {
             bindings = <
-        &kp PIPE  &kp AMPERSAND  &kp AT      &kp POUND  &kp AMPERSAND    &caps_word  &trans  &pregunta  &kp QUESTION  &kp EQUAL
-        &trans    &trans         &kp DOLLAR  &trans     &trans           &trans      &trans  &trans     &trans        &kp COLON
-&trans  &trans    &trans         &trans      &trans     &trans           &trans      &trans  &trans     &kp COMMA     &kp SEMI   &trans
-                                 &trans      &trans     &trans           &trans      &trans  &trans
+        &kp PIPE  &kp AMPERSAND  &kp AT      &kp POUND  &kp AMPERSAND    &none   &trans  &pregunta  &kp QUESTION  &kp EQUAL
+        &trans    &trans         &kp DOLLAR  &trans     &trans           &trans  &trans  &trans     &trans        &kp COLON
+&trans  &trans    &trans         &trans      &trans     &trans           &trans  &trans  &trans     &kp COMMA     &kp SEMI   &trans
+                                 &trans      &trans     &trans           &trans  &trans  &trans
             >;
         };
     };
