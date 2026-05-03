@@ -36,30 +36,30 @@
             >;
         };
 
-        nav_num {
+        nav_num_direc {
             bindings = <
-                   &kp LA(BACKSPACE)   &kp BACKSPACE  &kp UP     &kp DELETE     &kp LA(DELETE)        &kp N5      &kp N6           &kp N7       &kp N8    &kp N9
-                   &kp LA(LEFT_ARROW)  &kp LEFT       &kp DOWN   &kp RIGHT      &kp LA(RIGHT)         &kp N0      &kp N1           &kp N2       &kp N3    &kp N4
-&kp LG(BACKSPACE)  &kp LG(UP_ARROW)    &kp LG(LEFT)   &kp ENTER  &kp LG(RIGHT)  &kp LG(DOWN_ARROW)    &kp PERIOD  &kp PLUS         &kp MINUS    &kp STAR  &kp FSLH  &kp CARET
-                                                      &trans     &trans         &trans                &kp EQUAL   &kp RIGHT_SHIFT  &kp PERCENT
+                  &kp ESCAPE     &kp BACKSPACE     &kp UP     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp NUMBER_1  &kp NUMBER_2     &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5
+                  &kp TAB        &kp LEFT          &kp DOWN   &kp RIGHT             &kp COMMA                &kp NUMBER_6  &kp NUMBER_7     &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
+&kp LEFT_CONTROL  &kp LESS_THAN  &kp GREATER_THAN  &kp ENTER  &kp LEFT_BRACKET      &kp RIGHT_BRACKET        &kp PERIOD    &kp PLUS         &kp MINUS     &kp STAR      &kp FSLH      &kp LEFT_ALT
+                                                   &trans     &trans                &trans                   &kp EQUAL     &kp RIGHT_SHIFT  &kp PERCENT
             >;
         };
 
-        sym_func {
+        simbols_and_F1-16 {
             bindings = <
-           &kp ESC        &kp LEFT_BRACE        &kp RIGHT_BRACE        &none             &none             &kp F1   &kp F2           &kp F3   &kp F4   &kp F5
-           &kp TAB        &kp LBKT              &kp RBKT               &kp ENTER         &kp BSLH          &kp F6   &kp F7           &kp F8   &kp F9   &kp F10
-&kp GRAVE  &kp LESS_THAN  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GREATER_THAN  &kp UNDERSCORE    &kp F11  &kp F12          &kp F13  &kp F14  &kp F15  &kp F16
-                                                &trans                 &trans            &trans            &none    &kp RIGHT_SHIFT  &none
+           &kp ESC        &kp SQT               &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp F1   &kp F2           &kp F3        &kp F4   &kp F5
+           &kp TAB        &kp NON_US_BACKSLASH  &kp SLASH          &kp LEFT_BRACE        &kp RIGHT_BRACE          &kp F6   &kp F7           &kp F8        &kp F9   &kp F10
+&kp GRAVE  &kp LESS_THAN  &kp GREATER_THAN      &kp UNDERSCORE     &kp LEFT_BRACKET      &kp RIGHT_BRACKET        &kp F11  &kp F12          &kp F13       &kp F14  &kp F15  &kp F16
+                                                &trans             &trans                &trans                   &none    &kp RIGHT_SHIFT  &kp LEFT_WIN
             >;
         };
 
-        device {
+        window_manage {
             bindings = <
-       &none       &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &none             &none    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-       &kp K_MUTE  &kp C_VOLUME_DOWN     &kp C_VOLUME_UP       &kp C_PLAY_PAUSE  &none    &none         &none         &none         &none         &none
-&none  &none       &none                 &none                 &none             &none    &none         &none         &none         &none         &none         &bt BT_CLR
-                                         &none                 &none             &none    &none         &none         &none
+                  &kp ESCAPE  &kp LC(LA(Q))  &kp LA(W)      &kp LA(LC(D))  &kp LS(LA(W))    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
+                  &kp TAB     &kp LA(A)      &kp LA(S)      &kp LA(D)      &kp LS(LA(D))    &none         &none         &none         &none         &none
+&kp LEFT_CONTROL  &none       &none          &kp LS(LA(S))  &kp LA(V)      &kp LA(M)        &none         &none         &none         &none         &none         &bt BT_CLR
+                                             &none          &none          &none            &none         &none         &kp LEFT_WIN
             >;
         };
 
@@ -73,9 +73,9 @@
     conditional_layers {
         compatible = "zmk,conditional-layers";
 
-        device {
+        win_manag {
             if-layers = <1 2>;
-            then-layer = <3>;
+            then-layer = <5>;
         };
     };
 };
