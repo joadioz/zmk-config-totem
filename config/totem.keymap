@@ -30,7 +30,7 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp LEFT_ALT &kp NUMBER_1 &kp NUMBER_6 &kp NUMBER_8>;
+                <&kp LEFT_ALT &kp KP_NUMBER_1 &kp KP_NUMBER_6 &kp KP_NUMBER_8>;
 
             label = "NEW_MACRO";
         };
