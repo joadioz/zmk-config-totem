@@ -46,7 +46,7 @@
                   &kp ESCAPE     &kp BACKSPACE     &kp UP     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp NUMBER_1  &kp NUMBER_2     &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5
                   &kp TAB        &kp LEFT          &kp DOWN   &kp RIGHT             &kp COMMA                &kp NUMBER_6  &kp NUMBER_7     &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
 &kp LEFT_CONTROL  &kp LESS_THAN  &kp GREATER_THAN  &kp ENTER  &kp LEFT_BRACKET      &kp RIGHT_BRACKET        &kp PERIOD    &kp PLUS         &kp MINUS     &kp STAR      &kp LEFT_ALT  &kp LEFT_CONTROL
-                                                   &trans     &trans                &trans                   &kp EQUAL     &kp RIGHT_SHIFT  &kp PERCENT
+                                                   &trans     &trans                &trans                   &kp LEFT_ALT  &kp RIGHT_SHIFT  &kp PERCENT
             >;
         };
 
@@ -70,10 +70,10 @@
 
         unnicode_simbols {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &none   &kp QUESTION  &trans
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans        &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans        &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+        &kp PIPE  &kp AMPERSAND  &kp AT      &kp POUND  &kp AMPERSAND    &none   &trans  &none   &kp QUESTION  &kp EQUAL
+        &trans    &trans         &kp DOLLAR  &trans     &trans           &trans  &trans  &trans  &trans        &kp COLON
+&trans  &trans    &trans         &trans      &trans     &trans           &trans  &trans  &trans  &kp COMMA     &kp SEMI   &trans
+                                 &trans      &trans     &trans           &trans  &trans  &trans
             >;
         };
     };
