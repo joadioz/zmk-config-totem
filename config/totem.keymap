@@ -53,7 +53,7 @@
                   &kp ESCAPE     &kp BACKSPACE     &kp UP        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp NUMBER_1  &kp NUMBER_2    &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5
                   &kp TAB        &kp LEFT          &kp DOWN      &kp RIGHT             &kp COMMA                &kp NUMBER_6  &kp NUMBER_7    &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
 &kp LEFT_CONTROL  &kp LESS_THAN  &kp GREATER_THAN  &kp ENTER     &kp LC(Z)             &kp LC(LS(Z))            &kp PERIOD    &kp PLUS        &kp MINUS     &kp STAR      &kp LEFT_ALT  &kp LEFT_CONTROL
-                                                   &kp LEFT_WIN  &kp LEFT_ALT          &none                    &kp LEFT_ALT  &kp LEFT_SHIFT  &kp PERCENT
+                                                   &kp LEFT_WIN  &kp LEFT_ALT          &none                    &mo 4         &kp LEFT_SHIFT  &kp PERCENT
             >;
         };
 
