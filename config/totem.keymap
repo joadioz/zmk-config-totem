@@ -74,7 +74,7 @@
 
         f6 {
             bindings = <&kp F6>;
-            key-positions = <16 17>;
+            key-positions = <16 35>;
         };
     };
 
