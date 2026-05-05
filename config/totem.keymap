@@ -89,7 +89,7 @@
     };
 
     macros {
-        pregunta: new_macro {
+        pregunta: pregunta {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
@@ -102,7 +102,7 @@
 
             label = "NEW_MACRO";
         };
-exclamacion: new_macro {
+exclamacion: exclamacion {
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
     bindings =
@@ -113,7 +113,7 @@ exclamacion: new_macro {
         <&macro_release>,
         <&kp LEFT_ALT>;
 };
-em_dash: new_macro {
+em_dash: em_dash {
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
     bindings =
@@ -124,7 +124,7 @@ em_dash: new_macro {
         <&macro_release>,
         <&kp LEFT_ALT>;
 };
-guillemet_left: new_macro {
+guillemet_left: guillemet_left {
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
     bindings =
@@ -135,7 +135,7 @@ guillemet_left: new_macro {
         <&macro_release>,
         <&kp LEFT_ALT>;
 };
-guillemet_right: new_macro {
+guillemet_right: guillemet_right {
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
     bindings =
