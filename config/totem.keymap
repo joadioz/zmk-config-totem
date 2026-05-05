@@ -71,6 +71,11 @@
             bindings = <&kp LA(F4)>;
             key-positions = <15 16>;
         };
+
+        f6 {
+            bindings = <&kp F6>;
+            key-positions = <16 17>;
+        };
     };
 
     macros {
