@@ -46,6 +46,16 @@
             key-positions = <1 2>;
             layers = <0>;
         };
+
+        ctrlAlt {
+            bindings = <&kp LC(A)>;
+            key-positions = <10 11>;
+        };
+
+        controlX {
+            bindings = <&kp LC(X)>;
+            key-positions = <11 12>;
+        };
     };
 
     macros {
