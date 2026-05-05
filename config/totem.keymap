@@ -90,7 +90,7 @@
         nav_num {
             bindings = <
            &kp ESCAPE  &kp BACKSPACE  &kp UP        &kp LC(LS(TAB))  &kp LC(TAB)    &kp NUMBER_1  &kp NUMBER_2    &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5
-           &kp TAB     &kp LEFT       &kp DOWN      &kp RIGHT        &kp LC(W)      &kp NUMBER_6  &kp LCTRL       &kp RSHFT     &kp NUMBER_9  &kp NUMBER_0
+           &kp LC(X)   &kp LEFT       &kp DOWN      &kp RIGHT        &kp LC(W)      &kp NUMBER_6  &kp LCTRL       &kp RSHFT     &kp NUMBER_9  &kp NUMBER_0
 &kp RC(X)  &kp LC(C)   &kp LC(V)      &kp ENTER     &kp LC(N)        &kp LC(T)      &kp PERIOD    &kp K_COPY      &kp MINUS     &kp STAR      &kp LEFT_ALT  &kp LEFT_CONTROL
                                       &kp LEFT_WIN  &kp LEFT_ALT     &none          &mo 4         &kp LEFT_SHIFT  &kp PERCENT
             >;
