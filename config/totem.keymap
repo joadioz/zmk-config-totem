@@ -82,12 +82,13 @@ macros {
     pregunta: new_macro {
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
-        bindings =
-            <&macro_press &kp LALT>,
-            <&macro_tap &kp KP_1>,
-            <&macro_tap &kp KP_6>,
-            <&macro_tap &kp KP_8>,
-            <&macro_release &kp LALT>;
+      
+bindings =
+    <&macro_press &kp LALT>,
+    <&macro_tap &kp KP_1>,
+    <&macro_tap &kp KP_6>,
+    <&macro_tap &kp KP_8>,
+    <&macro_release &kp LALT>;
         label = "NEW_MACRO";
     };
 };
