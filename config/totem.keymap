@@ -38,6 +38,13 @@
             bindings = <&mo 4>;
             key-positions = <35 34>;
             layers = <0>;
+            timeout-ms = <0>;
+        };
+
+        winE {
+            bindings = <&kp LG(E)>;
+            key-positions = <1 2>;
+            layers = <0>;
         };
     };
 
