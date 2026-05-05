@@ -78,18 +78,19 @@
         };
     };
 
-    macros {
-        pregunta: new_macro {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                = <&macro_press &kp LALT>
-                , <&macro_tap &kp KP_N1 &kp KP_N6 &kp KP_N8>
-                , <&macro_release &kp LALT>
-                ;
-            label = "NEW_MACRO";
-        };
+macros {
+    pregunta: new_macro {
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        bindings =
+            <&macro_press &kp LALT>,
+            <&macro_tap &kp KP_1>,
+            <&macro_tap &kp KP_6>,
+            <&macro_tap &kp KP_8>,
+            <&macro_release &kp LALT>;
+        label = "NEW_MACRO";
     };
+};
 
     behaviors {
         cutPaste: cutPaste {
