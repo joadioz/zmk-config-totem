@@ -101,6 +101,7 @@
             <&macro_tap &kp KP_N8>,
             <&macro_release>,
             <&kp LEFT_ALT>;
+     label = "pregunta";
     };
 };
 
