@@ -63,7 +63,7 @@
         };
 
         ctrlC {
-            bindings = <&kp LS(C)>;
+            bindings = <&kp LC(C)>;
             key-positions = <22 23>;
         };
 
