@@ -49,7 +49,7 @@
 
         ctrlAlt {
             bindings = <&kp LC(A)>;
-            key-positions = <10 11>;
+            key-positions = <10 34>;
         };
 
         controlX {
