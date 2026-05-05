@@ -56,6 +56,21 @@
             bindings = <&kp LC(X)>;
             key-positions = <11 12>;
         };
+
+        ctrlV {
+            bindings = <&kp LC(V)>;
+            key-positions = <12 13>;
+        };
+
+        ctrlC {
+            bindings = <&kp LS(C)>;
+            key-positions = <22 23>;
+        };
+
+        altf4 {
+            bindings = <&kp LA(F4)>;
+            key-positions = <15 16>;
+        };
     };
 
     macros {
