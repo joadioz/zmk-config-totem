@@ -77,6 +77,40 @@ c//
             bindings = <&kp F6>;
             key-positions = <16 35>;
         };
+<<<<<<< HEAD
+=======
+    };
+
+    macros {
+        pregunta: new_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LALT>,
+                <&macro_tap>,
+                <&kp KP_N1 &kp KP_N6 &kp KP_N8>,
+                <&macro_release>,
+                <&kp LEFT_ALT>;
+
+            label = "NEW_MACRO";
+        };
+    };
+
+    behaviors {
+        cutPaste: cutPaste {
+            compatible = "zmk,behavior-hold-tap";
+            label = "CUTPASTE";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <1200>;
+            quick-tap-ms = <175>;
+            hold-trigger-key-positions = <21 23 24 22>;
+            hold-trigger-on-release;
+            flavor = "balanced";
+        };
+>>>>>>> parent of 6f8a4f0 (Updated totem.keymap)
     };
 
     keymap {
