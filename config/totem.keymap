@@ -213,7 +213,7 @@
         simbols_and_F1-16 {
             bindings = <
                &kp ESC        &kp SQT               &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp F1        &kp F2   &kp F3        &kp F4   &kp F5
-               &kp LA(TAB)    &kp NON_US_BACKSLASH  &kp SLASH          &kp LEFT_BRACE        &kp RIGHT_BRACE          &kp F6        &kp F7   &kp F8        &kp F9   &kp LEFT_ALT
+               &kp TAB        &kp NON_US_BACKSLASH  &kp SLASH          &kp LEFT_BRACE        &kp RIGHT_BRACE          &kp F6        &kp F7   &kp F8        &kp F9   &kp LEFT_ALT
 &kp LC(LS(B))  &kp LESS_THAN  &kp GREATER_THAN      &kp UNDERSCORE     &kp LEFT_BRACKET      &kp RIGHT_BRACKET        &kp F11       &kp F12  &kp F13       &kp F14  &kp F10       &kp F16
                                                     &trans             &trans                &kp LEFT_ALT             &kp LEFT_ALT  &none    &kp LEFT_WIN
             >;
