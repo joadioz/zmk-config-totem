@@ -174,15 +174,17 @@
     };
 
     behaviors {
-        spacio_capa: spacio_capa {
-            compatible = "zmk,behavior-hold-tap";
-            label = "SPACIO_CAPA";
-            bindings = <&lt>, <&kp>;
+    spacio_capa: spacio_capa {
+        compatible = "zmk,behavior-hold-tap";
+        label = "SPACIO_CAPA";
 
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            flavor = "balanced";
-        };
+        #binding-cells = <2>;
+
+        flavor = "balanced";
+        tapping-term-ms = <200>;
+
+        bindings = <&mo>, <&kp>;
+    };
     };
 
     keymap {
