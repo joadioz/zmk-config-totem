@@ -194,18 +194,18 @@
 
         base {
             bindings = <
-                  &kp Q           &kp W  &kp E    &kp R           &kp T          &kp Y      &kp U  &kp I      &kp O    &kp P
-                  &mt LEFT_ALT A  &kp S  &kp D    &kp F           &kp G          &kp H      &kp J  &kp K      &kp L    &kp RIGHT_ALT
-&kp LEFT_CONTROL  &kp Z           &kp X  &kp C    &kp V           &kp B          &kp N      &kp M  &kp COMMA  &kp DOT  &kp LEFT_ALT   &kp LEFT_CONTROL
-                                         &kp TAB  &kp LEFT_SHIFT  &lt 1 SPACE    &kp SPACE  &mo 2  &mo 4
+                  &kp Q           &kp W  &kp E    &kp R           &kp T          &kp Y        &kp U  &kp I      &kp O    &kp P
+                  &mt LEFT_ALT A  &kp S  &kp D    &kp F           &kp G          &kp H        &kp J  &kp K      &kp L    &kp RIGHT_ALT
+&kp LEFT_CONTROL  &kp Z           &kp X  &kp C    &kp V           &kp B          &kp N        &kp M  &kp COMMA  &kp DOT  &kp LEFT_ALT   &kp LEFT_CONTROL
+                                         &kp TAB  &kp LEFT_SHIFT  &lt 1 SPACE    &lt 4 SPACE  &mo 2  &mo 4
             >;
         };
 
         nav_num {
             bindings = <
            &kp ESCAPE  &kp BACKSPACE  &kp UP        &kp LC(LS(TAB))  &kp LC(TAB)    &kp NUMBER_1  &kp NUMBER_2    &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5
-           &kp LC(X)   &kp LEFT       &kp DOWN      &kp RIGHT        &kp LC(W)      &kp NUMBER_6  &kp LCTRL       &kp RSHFT     &kp NUMBER_9  &kp NUMBER_0
-&kp RC(X)  &kp LC(C)   &kp LC(V)      &kp ENTER     &kp LC(N)        &kp LC(T)      &kp PERIOD    &kp K_COPY      &kp MINUS     &kp STAR      &kp LEFT_ALT  &kp LEFT_CONTROL
+           &kp LC(C)   &kp LEFT       &kp DOWN      &kp RIGHT        &kp LC(W)      &kp NUMBER_6  &kp LCTRL       &kp RSHFT     &kp LEFT_ALT  &kp TAB
+&kp RC(X)  &kp LC(X)   &kp LC(V)      &kp ENTER     &kp LC(N)        &kp LC(T)      &kp PERIOD    &kp K_COPY      &kp MINUS     &kp STAR      &kp LEFT_ALT  &kp LEFT_CONTROL
                                       &kp LEFT_WIN  &kp LEFT_ALT     &none          &mo 4         &kp LEFT_SHIFT  &kp PERCENT
             >;
         };
@@ -232,7 +232,7 @@
             bindings = <
         &kp PIPE  &kp AMPERSAND  &kp AT      &kp POUND  &kp AMPERSAND    &exclamacion  &kp EXCLAMATION  &pregunta  &kp QUESTION  &kp EQUAL
         &trans    &trans         &kp DOLLAR  &trans     &kp COLON        &trans        &trans           &trans     &trans        &kp COLON
-&trans  &trans    &trans         &trans      &trans     &trans           &trans        &trans           &trans     &kp COMMA     &kp SEMI   &trans
+&trans  &trans    &trans         &trans      &em_dash   &kp MINUS        &trans        &trans           &trans     &kp COMMA     &kp SEMI   &trans
                                  &trans      &trans     &trans           &trans        &trans           &trans
             >;
         };
