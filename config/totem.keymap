@@ -187,6 +187,15 @@
             tapping-term-ms = <200>;
             bindings = <&mo>, <&kp>;
         };
+
+        shiftModMorph: shiftModMorph {
+            compatible = "zmk,behavior-mod-morph";
+            label = "SHIFTMODMORPH";
+            bindings = <&kp LEFT_BRACE>, <&kp RIGHT_BRACE>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+        };
     };
 
     keymap {
@@ -195,8 +204,8 @@
         base {
             bindings = <
                   &kp Q           &kp W  &kp E    &kp R           &kp T          &kp Y                 &kp U  &kp I      &kp O    &kp P
-                  &mt LEFT_ALT A  &kp S  &kp D    &kp F           &kp G          &kp H                 &kp J  &kp K      &kp L    &kp RIGHT_ALT
-&kp LEFT_CONTROL  &kp Z           &kp X  &kp C    &kp V           &kp B          &kp N                 &kp M  &kp COMMA  &kp DOT  &kp LEFT_ALT   &kp LEFT_CONTROL
+                  &mt LEFT_ALT A  &kp S  &kp D    &kp F           &kp G          &kp H                 &kp J  &kp K      &kp L    &kp RA(SEMICOLON)
+&kp LEFT_CONTROL  &kp Z           &kp X  &kp C    &kp V           &kp B          &kp N                 &kp M  &kp COMMA  &kp DOT  &kp LEFT_ALT       &kp LEFT_CONTROL
                                          &kp TAB  &kp LEFT_SHIFT  &lt 1 SPACE    &spacio_capa 2 SPACE  &mo 2  &mo 4
             >;
         };
@@ -212,10 +221,10 @@
 
         simbols_and_F1-16 {
             bindings = <
-               &kp ESC        &kp SQT               &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp F1        &kp N1  &kp N2        &kp N3  &kp F5
-               &kp TAB        &kp NON_US_BACKSLASH  &kp SLASH          &kp LEFT_BRACE        &kp RIGHT_BRACE          &kp F6        &kp N4  &kp N5        &kp N6  &kp N0
-&kp LC(LS(B))  &kp LESS_THAN  &kp GREATER_THAN      &kp UNDERSCORE     &kp LEFT_BRACKET      &kp RIGHT_BRACKET        &kp F11       &kp N7  &kp N8        &kp N9  &kp F10  &kp F16
-                                                    &trans             &trans                &kp LEFT_ALT             &kp LEFT_ALT  &none   &kp LEFT_WIN
+               &kp ESC        &kp SQT               &kp DOUBLE_QUOTES  &kp RA(E)             &shiftModMorph           &kp F1   &kp RA(U)  &kp RA(I)     &kp RA(O)  &kp F5
+               &kp RA(A)      &kp NON_US_BACKSLASH  &kp SLASH          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp F6   &kp N4     &kp N5        &kp N6     &kp N0
+&kp LC(LS(B))  &kp LESS_THAN  &kp GREATER_THAN      &kp UNDERSCORE     &kp LEFT_BRACKET      &kp RIGHT_BRACKET        &kp F11  &kp N7     &kp N8        &kp N9     &kp F10  &kp F16
+                                                    &trans             &trans                &kp LEFT_SHIFT           &none    &none      &kp LEFT_WIN
             >;
         };
 
