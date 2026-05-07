@@ -11,7 +11,6 @@
 // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
 &mt {
@@ -194,19 +193,19 @@
 
         base {
             bindings = <
-                  &kp Q           &kp W  &kp E    &kp R           &kp T          &kp Y        &kp U  &kp I      &kp O    &kp P
-                  &mt LEFT_ALT A  &kp S  &kp D    &kp F           &kp G          &kp H        &kp J  &kp K      &kp L    &kp RIGHT_ALT
-&kp LEFT_CONTROL  &kp Z           &kp X  &kp C    &kp V           &kp B          &kp N        &kp M  &kp COMMA  &kp DOT  &kp LEFT_ALT   &kp LEFT_CONTROL
-                                         &kp TAB  &kp LEFT_SHIFT  &lt 1 SPACE    &lt 2 SPACE  &mo 2  &mo 4
+                  &kp Q           &kp W  &kp E    &kp R           &kp T          &kp Y      &kp U  &kp I      &kp O    &kp P
+                  &mt LEFT_ALT A  &kp S  &kp D    &kp F           &kp G          &kp H      &kp J  &kp K      &kp L    &kp RIGHT_ALT
+&kp LEFT_CONTROL  &kp Z           &kp X  &kp C    &kp V           &kp B          &kp N      &kp M  &kp COMMA  &kp DOT  &kp LEFT_ALT   &kp LEFT_CONTROL
+                                         &kp TAB  &kp LEFT_SHIFT  &lt 1 SPACE    &kp SPACE  &mo 2  &mo 4
             >;
         };
 
         nav_num {
             bindings = <
-                  &kp ESCAPE  &kp BACKSPACE  &kp UP        &kp LC(LS(TAB))  &kp LC(TAB)    &kp NUMBER_1  &kp NUMBER_2    &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5
-                  &kp LC(C)   &kp LEFT       &kp DOWN      &kp RIGHT        &kp LC(W)      &kp NUMBER_6  &kp LCTRL       &kp RSHFT     &kp LEFT_ALT  &kp TAB
-&kp LEFT_CONTROL  &kp LC(X)   &kp LC(V)      &kp ENTER     &kp LC(N)        &kp LC(T)      &kp PERIOD    &kp K_COPY      &kp MINUS     &kp STAR      &kp LEFT_ALT  &kp LEFT_CONTROL
-                                             &kp LEFT_WIN  &kp LEFT_ALT     &none          &mo 4         &kp LEFT_SHIFT  &kp PERCENT
+                  &kp ESCAPE  &kp BACKSPACE  &kp UP        &kp LC(LS(TAB))  &kp LC(TAB)    &kp LC(N7)  &kp LC(N1)      &kp LC(N2)   &kp LC(N3)    &kp NUMBER_5
+                  &kp LC(C)   &kp LEFT       &kp DOWN      &kp RIGHT        &kp LC(W)      &kp LC(N8)  &kp LCTRL       &kp RSHFT    &kp LEFT_ALT  &kp TAB
+&kp LEFT_CONTROL  &kp LC(X)   &kp LC(V)      &kp ENTER     &kp LC(N)        &kp LC(T)      &kp LC(N9)  &kp LC(N4)      &kp LC(N5)   &kp LC(N6)    &kp LEFT_ALT  &kp LEFT_CONTROL
+                                             &kp LEFT_WIN  &kp LEFT_ALT     &none          &mo 4       &kp LEFT_SHIFT  &kp PERCENT
             >;
         };
 
@@ -221,10 +220,10 @@
 
         window_manage {
             bindings = <
-                  &kp ESCAPE     &kp LC(LA(A))  &kp LA(W)      &kp LA(LC(D))  &kp LS(LA(W))    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-                  &kp LA(LS(A))  &kp LA(A)      &kp LA(S)      &kp LA(D)      &kp LS(LA(D))    &none         &none         &none         &none         &bt BT_CLR
-&kp LEFT_CONTROL  &none          &none          &kp LS(LA(S))  &kp LA(V)      &kp LA(M)        &kp LG(E)     &none         &none         &none         &none         &bt BT_CLR
-                                                &tog 3         &none          &tog 3           &none         &none         &kp LEFT_WIN
+                  &kp ESCAPE  &kp F1  &kp F2    &kp F3  &kp F10     &kp DOT    &kp DOT  &kp DOT       &kp DOT  &kp DOT
+                  &kp DOT     &kp F4  &kp F5    &kp F6  &kp F11     &none      &none    &none         &none    &kp DOT
+&kp LEFT_CONTROL  &none       &kp F7  &kp F8    &kp F9  &kp F12     &kp LG(E)  &none    &none         &none    &none    &kp DOT
+                                      &kp RALT  &none   &kp LALT    &none      &none    &kp LEFT_WIN
             >;
         };
 
