@@ -174,16 +174,13 @@
     };
 
     behaviors {
-        cutPaste: cutPaste {
+        spacio_capa: spacio_capa {
             compatible = "zmk,behavior-hold-tap";
-            label = "CUTPASTE";
-            bindings = <&kp>, <&kp>;
+            label = "SPACIO_CAPA";
+            bindings = <&lt>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <1200>;
-            quick-tap-ms = <175>;
-            hold-trigger-key-positions = <21 23 24 22>;
-            hold-trigger-on-release;
+            tapping-term-ms = <200>;
             flavor = "balanced";
         };
     };
@@ -193,10 +190,10 @@
 
         base {
             bindings = <
-                  &kp Q           &kp W  &kp E    &kp R           &kp T          &kp Y      &kp U  &kp I      &kp O    &kp P
-                  &mt LEFT_ALT A  &kp S  &kp D    &kp F           &kp G          &kp H      &kp J  &kp K      &kp L    &kp RIGHT_ALT
-&kp LEFT_CONTROL  &kp Z           &kp X  &kp C    &kp V           &kp B          &kp N      &kp M  &kp COMMA  &kp DOT  &kp LEFT_ALT   &kp LEFT_CONTROL
-                                         &kp TAB  &kp LEFT_SHIFT  &lt 1 SPACE    &kp SPACE  &mo 2  &mo 4
+                  &kp Q           &kp W  &kp E    &kp R           &kp T          &kp Y                 &kp U  &kp I      &kp O    &kp P
+                  &mt LEFT_ALT A  &kp S  &kp D    &kp F           &kp G          &kp H                 &kp J  &kp K      &kp L    &kp RIGHT_ALT
+&kp LEFT_CONTROL  &kp Z           &kp X  &kp C    &kp V           &kp B          &kp N                 &kp M  &kp COMMA  &kp DOT  &kp LEFT_ALT   &kp LEFT_CONTROL
+                                         &kp TAB  &kp LEFT_SHIFT  &lt 1 SPACE    &spacio_capa 2 SPACE  &mo 2  &mo 4
             >;
         };
 
