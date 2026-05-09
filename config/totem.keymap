@@ -117,6 +117,11 @@
             bindings = <&kp SPACE>;
             key-positions = <11 13>;
         };
+
+        devorack {
+            bindings = <&sk RIGHT_ALT>;
+            key-positions = <17 16 18>;
+        };
     };
 
     macros {
