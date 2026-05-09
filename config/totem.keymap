@@ -53,7 +53,7 @@
 
         controlX {
             bindings = <&kp LC(X)>;
-            key-positions = <11 12>;
+            key-positions = <22 23 24>;
         };
 
         ctrlV {
@@ -73,7 +73,7 @@
 
         f6 {
             bindings = <&kp F6>;
-            key-positions = <16 35>;
+            key-positions = <35 15>;
         };
 
         ctrlZ {
@@ -93,7 +93,7 @@
 
         dvorak-qwerty {
             bindings = <&tog 5>;
-            key-positions = <31 1>;
+            key-positions = <31 4>;
         };
     };
 
@@ -274,7 +274,7 @@
         compatible = "zmk,conditional-layers";
 
         condition {
-            if-layers = <1 4>;
+            if-layers = <1 2>;
             then-layer = <4>;
         };
     };
