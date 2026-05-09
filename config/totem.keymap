@@ -102,6 +102,11 @@
             key-positions = <31 4>;
             layers = <5>;
         };
+
+        f11 {
+            bindings = <&kp F11>;
+            key-positions = <35 26>;
+        };
     };
 
     macros {
@@ -235,7 +240,7 @@
             bindings = <
                &kp ESC        &kp SQT           &kp RA(E)          &kp LEFT_BRACE        &kp RIGHT_BRACE          &kp F6     &kp RA(U)     &kp RA(I)     &kp RA(O)  &kp F5
                &kp RA(A)      &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp COLON  &kp EQUAL     &kp PLUS      &kp MINUS  &kp N0
-&kp LC(LS(B))  &kp LESS_THAN  &kp GREATER_THAN  &kp UNDERSCORE     &kp LEFT_BRACKET      &kp RIGHT_BRACKET        &kp F11    &kp ASTERISK  &kp SLASH     &kp N9     &kp F10  &kp F16
+&kp LC(LS(B))  &kp LESS_THAN  &kp GREATER_THAN  &kp UNDERSCORE     &kp LEFT_BRACKET      &kp RIGHT_BRACKET        &kp SEMI   &kp ASTERISK  &kp SLASH     &kp N9     &kp F10  &kp F16
                                                 &trans             &trans                &kp LEFT_SHIFT           &none      &none         &kp LEFT_WIN
             >;
         };
