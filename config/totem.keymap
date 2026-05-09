@@ -34,7 +34,7 @@
         };
 
         newCap {
-            bindings = <&mo 4>;
+            bindings = <&mo 3>;
             key-positions = <35 34>;
             layers = <0>;
             timeout-ms = <0>;
@@ -92,7 +92,7 @@
         };
 
         dvorak-qwerty {
-            bindings = <&to 5>;
+            bindings = <&to 4>;
             key-positions = <31 4>;
             layers = <0>;
         };
@@ -100,7 +100,7 @@
         qwert {
             bindings = <&to 0>;
             key-positions = <31 4>;
-            layers = <5>;
+            layers = <4>;
         };
 
         f11 {
@@ -223,20 +223,20 @@
                   &kp Q           &kp W  &kp E    &kp R           &kp T          &kp Y                 &kp U  &kp I         &kp O    &kp P
                   &mt LEFT_ALT A  &kp S  &kp D    &kp F           &kp G          &kp H                 &kp J  &kp K         &kp L    &kp RA(N)
 &kp LEFT_CONTROL  &kp Z           &kp X  &kp C    &kp V           &kp B          &kp N                 &kp M  &kp COMMA     &kp DOT  &kp LEFT_ALT  &kp LEFT_SHIFT
-                                         &kp TAB  &kp LEFT_SHIFT  &lt 1 SPACE    &spacio_capa 2 SPACE  &mo 4  &kp LEFT_ALT
+                                         &kp TAB  &kp LEFT_SHIFT  &lt 1 SPACE    &spacio_capa 2 SPACE  &mo 3  &kp LEFT_ALT
             >;
         };
 
-        nav_num {
+        navegacion {
             bindings = <
                   &kp ESCAPE  &kp BACKSPACE  &kp UP        &kp LC(LS(TAB))  &kp LC(TAB)    &kp LC(N7)  &kp LC(N1)      &kp LC(N2)   &kp LC(N3)    &kp NUMBER_5
                   &kp LC(C)   &kp LEFT       &kp DOWN      &kp RIGHT        &kp LC(W)      &kp LC(N8)  &kp LCTRL       &kp RSHFT    &kp LEFT_ALT  &kp TAB
 &kp LEFT_CONTROL  &kp LC(X)   &kp LC(V)      &kp ENTER     &kp LC(N)        &kp LC(T)      &kp LC(N9)  &kp LC(N4)      &kp LC(N5)   &kp LC(N6)    &kp LEFT_ALT  &kp LEFT_CONTROL
-                                             &kp LEFT_WIN  &kp LEFT_ALT     &none          &mo 4       &kp LEFT_SHIFT  &kp PERCENT
+                                             &kp LEFT_WIN  &kp LEFT_ALT     &none          &mo 3       &kp LEFT_SHIFT  &kp PERCENT
             >;
         };
 
-        simbols_and_F1-16 {
+        programacion_simbolos {
             bindings = <
                &kp ESC        &kp SQT           &kp RA(E)          &kp LEFT_BRACE        &kp RIGHT_BRACE          &kp F6     &kp RA(U)     &kp RA(I)     &kp RA(O)  &kp F5
                &kp RA(A)      &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp COLON  &kp EQUAL     &kp PLUS      &kp MINUS  &kp N0
@@ -245,16 +245,7 @@
             >;
         };
 
-        window_manage {
-            bindings = <
-                  &kp ESCAPE  &kp F1  &kp F2    &kp F3  &kp F10     &kp DOT    &kp DOT  &kp DOT       &kp DOT  &kp DOT
-                  &kp DOT     &kp F4  &kp F5    &kp F6  &kp F11     &none      &none    &none         &none    &kp DOT
-&kp LEFT_CONTROL  &none       &kp F7  &kp F8    &kp F9  &kp F12     &kp LG(E)  &none    &none         &none    &none    &kp DOT
-                                      &kp RALT  &none   &kp LALT    &none      &none    &kp LEFT_WIN
-            >;
-        };
-
-        unnicode_simbols {
+        unnicode_numeros {
             bindings = <
         &kp PIPE  &kp AMPERSAND  &kp AT  &kp POUND  &kp AMPERSAND    &exclamacion  &kp EXCLAMATION  &pregunta  &kp QUESTION  &kp EQUAL
         &trans    &kp N1         &kp N2  &kp N3     &kp COLON        &kp N4        &kp N4           &kp N5     &kp N6        &kp COLON
