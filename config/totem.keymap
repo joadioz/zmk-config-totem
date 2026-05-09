@@ -92,8 +92,15 @@
         };
 
         dvorak-qwerty {
-            bindings = <&tog 5>;
+            bindings = <&to 5>;
             key-positions = <31 4>;
+            layers = <0>;
+        };
+
+        qwert {
+            bindings = <&to 0>;
+            key-positions = <31 4>;
+            layers = <5>;
         };
     };
 
@@ -257,15 +264,6 @@
                   &mt LEFT_ALT A  &kp O      &kp E    &kp U           &kp I          &kp D                 &kp R  &kp T  &kp N  &kp S
 &kp LEFT_CONTROL  &kp DOT         &kp Q      &kp J    &kp K           &kp X          &kp B                 &kp M  &kp W  &kp V  &kp Z    &kp LEFT_SHIFT
                                              &kp TAB  &kp LEFT_SHIFT  &lt 1 SPACE    &spacio_capa 2 SPACE  &mo 2  &mo 4
-            >;
-        };
-
-        layer_6 {
-            bindings = <
-               &kp ESC        &kp SQT           &kp DOUBLE_QUOTES  &kp RA(E)         &shiftModMorph       &kp F1   &kp RA(U)  &kp RA(I)     &kp RA(O)  &kp F5
-               &kp RA(A)      &kp RA(O)         &kp RA(E)          &kp RA(U)         &kp RA(I)            &kp F6   &kp N4     &kp N5        &kp N6     &kp N0
-&kp LC(LS(B))  &kp LESS_THAN  &kp GREATER_THAN  &kp UNDERSCORE     &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp F11  &kp N7     &kp N8        &kp N9     &kp F10  &kp F16
-                                                &trans             &trans            &kp LEFT_SHIFT       &none    &none      &kp LEFT_WIN
             >;
         };
     };
