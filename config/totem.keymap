@@ -237,10 +237,10 @@
 
         dvorack {
             bindings = <
-                  &kp COMMA       &kp RA(N)  &kp P    &kp Y           &kp F     &kp G                 &kp C  &kp H         &kp L  &kp DOT
-                  &mt LEFT_ALT A  &kp O      &kp E    &kp U           &kp I     &kp D                 &kp R  &kp T         &kp N  &kp S
-&kp LEFT_CONTROL  &kp DOT         &kp Q      &kp J    &kp K           &kp X     &kp B                 &kp M  &kp W         &kp V  &kp Z    &kp LEFT_SHIFT
-                                             &kp TAB  &kp LEFT_SHIFT  &trans    &spacio_capa 3 SPACE  &mo 5  &kp LEFT_ALT
+                  &kp COMMA       &kp RA(N)  &kp P   &kp Y   &kp F     &kp G   &kp C   &kp H   &kp L  &kp DOT
+                  &mt LEFT_ALT A  &kp O      &kp E   &kp U   &kp I     &kp D   &kp R   &kp T   &kp N  &kp S
+&kp LEFT_CONTROL  &kp DOT         &kp Q      &kp J   &kp K   &kp X     &kp B   &kp M   &kp W   &kp V  &kp Z    &kp LEFT_SHIFT
+                                             &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
 
@@ -274,7 +274,7 @@
         unnicode_numeros {
             bindings = <
         &kp PIPE  &kp AMPERSAND  &kp AT  &kp POUND  &kp AMPERSAND    &exclamacion  &kp EXCLAMATION  &pregunta  &kp QUESTION  &kp EQUAL
-        &trans    &kp N4         &kp N5  &kp N6     &kp COLON        &kp N4        &kp N1           &kp N2     &kp N3        &kp N0
+        &trans    &kp N4         &kp N5  &kp N6     &kp COLON        &kp COLON     &kp N1           &kp N2     &kp N3        &kp N0
 &trans  &trans    &kp N7         &kp N8  &kp N9     &em_dash         &kp SEMI      &kp DOT          &kp N0     &kp COMMA     &kp SEMI   &trans
                                  &trans  &trans     &trans           &trans        &trans           &trans
             >;
