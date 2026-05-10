@@ -107,7 +107,7 @@
         };
 
         spaceBorrar {
-            bindings = <&kp BACKSPACE>;
+            bindings = <&kp SPACE>;
             key-positions = <11 13>;
         };
 
