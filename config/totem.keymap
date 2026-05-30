@@ -85,13 +85,13 @@
         };
 
         dvorak-qwerty {
-            bindings = <&to 1>;
+            bindings = <&to 0>;
             key-positions = <31 3>;
             layers = <1>;
         };
 
         qwert {
-            bindings = <&to 0>;
+            bindings = <&to 1>;
             key-positions = <31 3>;
             layers = <0>;
         };
@@ -228,10 +228,10 @@
 
         dvorack {
             bindings = <
-                  &kp COMMA       &kp RA(N)  &kp P   &kp Y   &kp F     &kp G   &kp C   &kp H   &kp L  &kp DOT
-                  &mt LEFT_ALT A  &kp O      &kp E   &kp U   &kp I     &kp D   &kp R   &kp T   &kp N  &kp S
-&kp LEFT_CONTROL  &kp DOT         &kp Q      &kp J   &kp K   &kp X     &kp B   &kp M   &kp W   &kp V  &kp Z    &kp LEFT_SHIFT
-                                             &kp TAB  &kp LEFT_SHIFT  &lt 2 BACKSPACE    &spacio_capa 3 SPACE  &mo 4  &kp LEFT_ALT
+                  &kp COMMA       &kp RA(N)  &kp P    &kp Y   &kp F     &kp G   &kp C   &kp H   &kp L  &kp DOT
+                  &mt LEFT_ALT A  &kp O      &kp E    &kp U   &kp I     &kp D   &kp R   &kp T   &kp N  &kp S
+&kp LEFT_CONTROL  &kp DOT         &kp Q      &kp J    &kp K   &kp X     &kp B   &kp M   &kp W   &kp V  &kp Z    &kp LEFT_SHIFT
+                                             &kp TAB  &trans  &trans    &trans  &trans  &trans
             >;
         };
 
