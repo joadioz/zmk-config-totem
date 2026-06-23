@@ -87,13 +87,13 @@
 
         dvorak-qwerty {
             bindings = <&to 0>;
-            key-positions = <31 3>;
+            key-positions = <31 4>;
             layers = <0>;
         };
 
         qwert {
             bindings = <&to 1>;
-            key-positions = <31 3>;
+            key-positions = <31 4>;
             layers = <1>;
         };
 
@@ -113,7 +113,7 @@
         };
 
         japonesOcr {
-            bindings = <&kp LA(F7)>;
+            bindings = <&kp RA(F7)>;
             key-positions = <34 21>;
         };
 
@@ -125,6 +125,11 @@
         spaceDos {
             bindings = <&kp SPACE>;
             key-positions = <13 11>;
+        };
+
+        space3 {
+            bindings = <&kp SPACE>;
+            key-positions = <16 17>;
         };
     };
 
