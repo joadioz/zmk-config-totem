@@ -131,6 +131,16 @@
             bindings = <&kp SPACE>;
             key-positions = <16 17>;
         };
+
+        esc {
+            bindings = <&kp ESC>;
+            key-positions = <33 0>;
+        };
+
+        deleteFile {
+            bindings = <&kp DEL>;
+            key-positions = <34 1>;
+        };
     };
 
     macros {
