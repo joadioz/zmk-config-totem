@@ -110,6 +110,7 @@
         space {
             bindings = <&kp SPACE>;
             key-positions = <13 12>;
+            layers = <0 2>;
         };
 
         japonesOcr {
@@ -125,11 +126,13 @@
         spaceDos {
             bindings = <&kp SPACE>;
             key-positions = <13 11>;
+            layers = <0 1>;
         };
 
         space3 {
             bindings = <&kp SPACE>;
             key-positions = <16 17>;
+            layers = <1 0>;
         };
 
         esc {
