@@ -88,13 +88,13 @@
         dvorak-qwerty {
             bindings = <&to 0>;
             key-positions = <31 4>;
-            layers = <0>;
+            layers = <1>;
         };
 
         qwert {
             bindings = <&to 1>;
             key-positions = <31 4>;
-            layers = <1>;
+            layers = <0>;
         };
 
         f11 {
