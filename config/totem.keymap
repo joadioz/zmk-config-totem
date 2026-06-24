@@ -277,10 +277,10 @@
 
         navegacion {
             bindings = <
-                  &kp ESCAPE     &kp BACKSPACE  &kp UP        &kp LC(LS(TAB))  &kp LC(TAB)    &kp LC(N7)  &kp LA(LS(T))   &kp LA(LS(F12))  &kp LA(F)     &kp NUMBER_5
-                  &kp LC(LS(T))  &kp LEFT       &kp DOWN      &kp RIGHT        &kp LC(W)      &kp LC(N8)  &kp LCTRL       &kp RSHFT        &kp LEFT_ALT  &kp TAB
-&kp LEFT_CONTROL  &kp LC(X)      &kp LC(LS(N))  &kp ENTER     &kp LC(N)        &kp LC(T)      &kp LC(N9)  &kp LA(M)       &kp LC(N5)       &kp LA(V)     &kp LA(RS(P))  &trans
-                                                &kp LEFT_WIN  &kp LEFT_ALT     &none          &mo 4       &kp LEFT_SHIFT  &kp LS(LA(E))
+                  &kp ESCAPE     &kp BACKSPACE  &kp UP        &kp LC(LS(TAB))  &kp LC(TAB)    &kp LA(F16)  &kp LA(LS(T))  &kp LA(LS(F12))    &kp LA(F)     &kp NUMBER_5
+                  &kp LC(LS(T))  &kp LEFT       &kp DOWN      &kp RIGHT        &kp LC(W)      &kp LA(F17)  &kp LCTRL      &kp RSHFT          &kp LEFT_ALT  &kp LA(LS(Z))
+&kp LEFT_CONTROL  &kp LC(X)      &kp LC(LS(N))  &kp ENTER     &kp LC(N)        &kp LC(T)      &kp LA(F15)  &kp LA(M)      &kp LC(RIGHT_ALT)  &kp LA(V)     &kp LA(RS(P))  &kp TAB
+                                                &kp LEFT_WIN  &kp LEFT_ALT     &none          &mo 4        &kp TAB        &kp LS(LA(E))
             >;
         };
 
@@ -295,10 +295,10 @@
 
         unnicode_numeros {
             bindings = <
-        &none   &kp N1  &kp N2  &kp N3  &kp AMPERSAND    &exclamacion  &kp EXCLAMATION  &pregunta  &kp QUESTION  &kp EQUAL
-        &kp N0  &kp N4  &kp N5  &kp N6  &kp N0           &kp COLON     &kp COMMA        &kp DOT    &kp N9        &kp N0
-&trans  &trans  &kp N7  &kp N8  &kp N9  &em_dash         &kp SEMI      &kp DOT          &kp N0     &kp COMMA     &kp SEMI   &trans
-                        &trans  &trans  &kp LALT         &kp LEFT_ALT  &trans           &trans
+        &none   &kp N1  &kp N2  &kp N3     &kp AMPERSAND    &exclamacion  &kp EXCLAMATION   &pregunta       &kp QUESTION  &kp EQUAL
+        &kp N0  &kp N4  &kp N5  &kp N6     &kp N0           &kp COLON     &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LEFT_ALT  &kp RIGHT_ALT
+&trans  &trans  &kp N7  &kp N8  &kp N9     &em_dash         &kp SEMI      &kp LEFT          &kp ENTER       &kp RIGHT     &kp SEMI       &kp TAB
+                        &trans  &kp SPACE  &kp BACKSPACE    &kp LEFT_ALT  &trans            &trans
             >;
         };
     };
