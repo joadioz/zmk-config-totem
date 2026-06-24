@@ -34,12 +34,6 @@
             key-positions = <15 14>;
         };
 
-        winE {
-            bindings = <&kp LG(E)>;
-            key-positions = <1 2>;
-            layers = <1 0>;
-        };
-
         ctrlAlt {
             bindings = <&kp LC(A)>;
             key-positions = <10 34>;
@@ -58,11 +52,6 @@
         ctrlC {
             bindings = <&kp LC(C)>;
             key-positions = <11 12>;
-        };
-
-        altf4 {
-            bindings = <&kp LA(F4)>;
-            key-positions = <6 8>;
         };
 
         f6 {
@@ -127,11 +116,6 @@
             bindings = <&kp SPACE>;
             key-positions = <11 13>;
             layers = <0 1>;
-        };
-
-        deleteFile {
-            bindings = <&kp DEL>;
-            key-positions = <34 1>;
         };
 
         esc {
@@ -272,8 +256,8 @@
         navegacion {
             bindings = <
                   &kp ESCAPE     &kp BACKSPACE  &kp UP        &kp LC(LS(TAB))  &kp LC(TAB)    &kp LA(F16)  &kp LA(LS(T))  &kp LA(LS(F12))    &kp LA(F)     &kp NUMBER_5
-                  &kp LC(LS(T))  &kp LEFT       &kp DOWN      &kp RIGHT        &kp LC(W)      &kp LA(F17)  &kp LCTRL      &kp RSHFT          &kp LEFT_ALT  &kp LA(LS(F19))
-&kp LEFT_CONTROL  &kp LC(X)      &kp LC(LS(N))  &kp ENTER     &kp LC(N)        &kp LC(T)      &kp LA(F15)  &kp LA(M)      &kp LC(RIGHT_ALT)  &kp LA(V)     &kp LA(RS(P))    &kp TAB
+                  &kp LC(LS(T))  &kp LEFT       &kp DOWN      &kp RIGHT        &kp LC(W)      &kp LA(F17)  &kp LCTRL      &kp RSHFT          &kp LEFT_ALT  &mo 5
+&kp LEFT_CONTROL  &kp LC(X)      &kp LC(LS(N))  &kp ENTER     &kp LC(N)        &kp LC(T)      &kp LA(F15)  &kp LA(M)      &kp LC(RIGHT_ALT)  &kp LA(V)     &kp LA(RS(P))  &kp TAB
                                                 &kp LEFT_WIN  &kp LEFT_ALT     &none          &mo 4        &kp TAB        &kp LS(LA(E))
             >;
         };
@@ -298,10 +282,10 @@
 
         layer_5 {
             bindings = <
-        &trans  &trans         &kp LA(LS(W))  &trans         &trans    &trans  &kp LA(N1)  &kp LA(N2)  &kp LA(N3)  &trans
-        &trans  &kp LA(LS(A))  &kp LS(LA(S))  &kp LS(LA(D))  &trans    &trans  &kp LA(N4)  &kp LA(N5)  &kp LA(N6)  &trans
-&trans  &trans  &trans         &trans         &trans         &trans    &trans  &kp LA(N7)  &kp LA(N8)  &kp LA(N9)  &trans  &trans
-                               &trans         &trans         &trans    &trans  &trans      &trans
+        &trans  &kp RG(E)      &kp LA(LS(W))      &kp LA(F4)     &trans    &trans  &kp LA(N1)  &kp LA(N2)  &kp LA(N3)  &trans
+        &trans  &kp LA(LS(A))  &kp LS(LA(S))      &kp LS(LA(D))  &trans    &trans  &kp LA(N4)  &kp LA(N5)  &kp LA(N6)  &trans
+&trans  &trans  &trans         &kp DOUBLE_QUOTES  &trans         &trans    &trans  &kp LA(N7)  &kp LA(N8)  &kp LA(N9)  &trans  &trans
+                               &trans             &trans         &trans    &trans  &trans      &trans
             >;
         };
     };
