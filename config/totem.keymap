@@ -115,7 +115,7 @@
 
         japonesOcr {
             bindings = <&kp RA(F7)>;
-            key-positions = <34 20>;
+            key-positions = <34 32>;
         };
 
         blutoohClear {
