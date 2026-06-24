@@ -295,7 +295,7 @@
 
         unnicode_numeros {
             bindings = <
-        &none   &kp N1  &kp N2  &kp N3     &kp AMPERSAND    &exclamacion  &kp EXCLAMATION   &pregunta       &kp QUESTION  &kp EQUAL
+        &none   &kp N1  &kp N2  &kp N3     &kp TILDE        &kp EQUAL     &kp EXCLAMATION   &pregunta       &kp QUESTION  &kp EQUAL
         &kp N0  &kp N4  &kp N5  &kp N6     &kp N0           &kp COLON     &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LEFT_ALT  &kp RIGHT_ALT
 &trans  &trans  &kp N7  &kp N8  &kp N9     &em_dash         &kp SEMI      &kp LEFT          &kp ENTER       &kp RIGHT     &kp SEMI       &kp TAB
                         &trans  &kp SPACE  &kp BACKSPACE    &kp LEFT_ALT  &trans            &trans
