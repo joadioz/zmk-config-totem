@@ -77,7 +77,7 @@
 
         ctrlShiftZ {
             bindings = <&kp LC(RS(Z))>;
-            key-positions = <21 22>;
+            key-positions = <21 22 34>;
         };
 
         f5 {
@@ -127,12 +127,6 @@
             bindings = <&kp SPACE>;
             key-positions = <11 13>;
             layers = <0 1>;
-        };
-
-        space3 {
-            bindings = <&kp SPACE>;
-            key-positions = <16 17>;
-            layers = <1 0>;
         };
 
         deleteFile {
