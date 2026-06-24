@@ -259,19 +259,19 @@
 
         dvorack {
             bindings = <
-                  &kp COMMA       &kp RA(N)  &kp P    &kp Y           &kp F              &kp G                 &kp C                 &kp H          &kp L  &kp LEFT_ALT
-                  &mt LEFT_ALT A  &kp O      &kp E    &kp U           &kp I              &kp D                 &kp R                 &kp T          &kp N  &kp S
-&kp LEFT_CONTROL  &kp DOT         &kp Q      &kp J    &kp K           &kp X              &kp B                 &kp M                 &kp W          &kp V  &kp Z         &kp LEFT_ALT
-                                             &kp TAB  &sk LEFT_SHIFT  &lt 2 BACKSPACE    &spacio_capa 3 SPACE  &spacio_capa 4 SPACE  &sk RIGHT_ALT
+                  &kp COMMA       &kp RA(N)  &kp P    &kp Y           &kp F              &kp G                 &kp C  &kp H          &kp L  &kp LEFT_ALT
+                  &mt LEFT_ALT A  &kp O      &kp E    &kp U           &kp I              &kp D                 &kp R  &kp T          &kp N  &kp S
+&kp LEFT_CONTROL  &kp DOT         &kp Q      &kp J    &kp K           &kp X              &kp B                 &kp M  &kp W          &kp V  &kp Z         &kp LEFT_ALT
+                                             &kp TAB  &sk LEFT_SHIFT  &lt 2 BACKSPACE    &spacio_capa 3 SPACE  &mo 4  &sk RIGHT_ALT
             >;
         };
 
         base {
             bindings = <
-                  &kp Q           &kp W  &kp E    &kp R           &kp T              &kp Y                 &kp U                 &kp I          &kp O    &kp P
-                  &mt LEFT_ALT A  &kp S  &kp D    &kp F           &kp G              &kp H                 &kp J                 &kp K          &kp L    &kp RA(N)
-&kp LEFT_CONTROL  &kp Z           &kp X  &kp C    &kp V           &kp B              &kp N                 &kp M                 &kp COMMA      &kp DOT  &kp LEFT_ALT  &kp LEFT_ALT
-                                         &kp TAB  &sk LEFT_SHIFT  &lt 2 BACKSPACE    &spacio_capa 3 SPACE  &spacio_capa 4 SPACE  &sk RIGHT_ALT
+                  &kp Q           &kp W  &kp E    &kp R           &kp T              &kp Y                 &kp U  &kp I          &kp O    &kp P
+                  &mt LEFT_ALT A  &kp S  &kp D    &kp F           &kp G              &kp H                 &kp J  &kp K          &kp L    &kp RA(N)
+&kp LEFT_CONTROL  &kp Z           &kp X  &kp C    &kp V           &kp B              &kp N                 &kp M  &kp COMMA      &kp DOT  &kp LEFT_ALT  &kp LEFT_ALT
+                                         &kp TAB  &sk LEFT_SHIFT  &lt 2 BACKSPACE    &spacio_capa 3 SPACE  &mo 4  &sk RIGHT_ALT
             >;
         };
 
@@ -296,9 +296,18 @@
         unnicode_numeros {
             bindings = <
         &none   &kp N1  &kp N2  &kp N3     &kp TILDE        &kp EQUAL     &kp EXCLAMATION   &pregunta       &kp QUESTION  &kp EQUAL
-        &kp N0  &kp N4  &kp N5  &kp N6     &kp N0           &kp COLON     &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LEFT_ALT  &kp RIGHT_ALT
-&trans  &trans  &kp N7  &kp N8  &kp N9     &em_dash         &kp SEMI      &kp LEFT          &kp ENTER       &kp RIGHT     &kp SEMI       &kp TAB
+        &kp N0  &kp N4  &kp N5  &kp N6     &kp N0           &kp COLON     &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LEFT_ALT  &mo 5
+&trans  &trans  &kp N7  &kp N8  &kp N9     &em_dash         &kp SEMI      &kp LEFT          &kp ENTER       &kp RIGHT     &kp SEMI   &kp TAB
                         &trans  &kp SPACE  &kp BACKSPACE    &kp LEFT_ALT  &trans            &trans
+            >;
+        };
+
+        layer_5 {
+            bindings = <
+        &trans  &trans         &kp LA(LS(W))  &trans         &trans    &trans  &kp N1  &kp N2  &kp N3  &trans
+        &trans  &kp LA(LS(A))  &kp LS(LA(S))  &kp LS(LA(D))  &trans    &trans  &kp N4  &kp N5  &kp N6  &trans
+&trans  &trans  &trans         &trans         &trans         &trans    &trans  &kp N7  &kp N8  &kp N9  &trans  &trans
+                               &trans         &trans         &trans    &trans  &trans  &trans
             >;
         };
     };
