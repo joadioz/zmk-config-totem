@@ -286,10 +286,10 @@
 
         programacion_simbolos {
             bindings = <
-               &kp AMPS       &kp SQT           &kp DOUBLE_QUOTES  &kp LEFT_BRACE        &kp RIGHT_BRACE          &kp SLASH  &kp BACKSLASH  &pregunta     &kp QUESTION  &kp AT_SIGN
+               &kp AMPS       &kp SQT           &kp DOUBLE_QUOTES  &kp LEFT_BRACE        &kp RIGHT_BRACE          &kp SLASH  &kp BACKSLASH  &kp LA(V)     &kp QUESTION  &kp AT_SIGN
                &kp HASH       &kp SINGLE_QUOTE  &kp MINUS          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp COLON  &kp EQUAL      &kp PLUS      &kp MINUS     &kp DOLLAR
-&kp LC(LS(B))  &kp LESS_THAN  &kp GREATER_THAN  &kp UNDERSCORE     &kp LEFT_BRACKET      &kp RIGHT_BRACKET        &kp SEMI   &kp ASTERISK   &kp SLASH     &exclamacion  &kp EXCLAMATION  &kp F16
-                                                &kp TILDE          &kp AT_SIGN           &kp LEFT_SHIFT           &none      &none          &kp LEFT_WIN
+&kp LC(LS(B))  &kp LESS_THAN  &kp GREATER_THAN  &kp UNDERSCORE     &kp LEFT_BRACKET      &kp RIGHT_BRACKET        &kp SEMI   &kp ASTERISK   &kp SLASH     &kp RA(B)     &kp EXCLAMATION  &kp F16
+                                                &kp TILDE          &kp RC(PERIOD)        &kp LEFT_SHIFT           &none      &none          &kp LEFT_WIN
             >;
         };
 
