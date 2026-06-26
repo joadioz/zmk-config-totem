@@ -142,6 +142,7 @@
         menu_win {
             bindings = <&kp LG(E)>;
             key-positions = <1 2>;
+            layers = <0 1>;
         };
 
         shiftEnter {
