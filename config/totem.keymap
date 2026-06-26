@@ -147,6 +147,7 @@
         shiftEnter {
             bindings = <&kp LS(ENTER)>;
             key-positions = <33 36>;
+            layers = <1 2>;
         };
     };
 
@@ -278,7 +279,7 @@
             bindings = <
                   &kp ESCAPE     &kp BACKSPACE  &kp UP        &kp LC(LS(TAB))  &kp LC(TAB)    &kp LA(F16)  &kp LA(LS(T))  &kp LA(LS(F12))    &kp LA(F)     &kp NUMBER_5
                   &kp LC(LS(T))  &kp LEFT       &kp DOWN      &kp RIGHT        &kp LC(W)      &kp LA(F17)  &kp LCTRL      &kp RSHFT          &kp LEFT_ALT  &mo 5
-&kp LEFT_CONTROL  &kp LC(X)      &kp LC(LS(N))  &kp ENTER     &kp LC(N)        &kp LC(T)      &kp LA(F15)  &kp LA(M)      &kp LC(RIGHT_ALT)  &kp LA(V)     &kp LA(RS(P))  &kp TAB
+&kp LEFT_CONTROL  &kp DEL        &kp LC(LS(N))  &kp ENTER     &kp LC(N)        &kp LC(T)      &kp LA(F15)  &kp LA(M)      &kp LC(RIGHT_ALT)  &kp LA(V)     &kp LA(RS(P))  &kp TAB
                                                 &kp LEFT_WIN  &kp LEFT_ALT     &none          &mo 4        &kp TAB        &kp LS(LA(E))
             >;
         };
@@ -288,7 +289,7 @@
                &kp AMPS       &kp SQT           &kp DOUBLE_QUOTES  &kp LEFT_BRACE        &kp RIGHT_BRACE          &kp SLASH  &kp BACKSLASH  &pregunta     &kp QUESTION  &kp AT_SIGN
                &kp HASH       &kp SINGLE_QUOTE  &kp MINUS          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp COLON  &kp EQUAL      &kp PLUS      &kp MINUS     &kp DOLLAR
 &kp LC(LS(B))  &kp LESS_THAN  &kp GREATER_THAN  &kp UNDERSCORE     &kp LEFT_BRACKET      &kp RIGHT_BRACKET        &kp SEMI   &kp ASTERISK   &kp SLASH     &exclamacion  &kp EXCLAMATION  &kp F16
-                                                &trans             &trans                &kp LEFT_SHIFT           &none      &none          &kp LEFT_WIN
+                                                &kp TILDE          &kp AT_SIGN           &kp LEFT_SHIFT           &none      &none          &kp LEFT_WIN
             >;
         };
 
