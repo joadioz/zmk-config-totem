@@ -300,10 +300,10 @@
 
         blender {
             bindings = <
-               &kp Q                    &kp W        &kp E             &kp R      &kp T              &kp Y                 &kp U  &kp I          &kp O    &kp P
-               &altHoldFast LEFT_ALT A  &mt LCTRL S  &mt LEFT_SHIFT D  &kp F      &kp G              &kp H                 &kp J  &kp K          &kp L    &kp RA(N)
-&kp BACKSPACE  &kp Z                    &kp X        &kp C             &kp V      &kp B              &kp N                 &kp M  &kp COMMA      &kp DOT  &kp LEFT_ALT  &kp LEFT_ALT
-                                                     &lt 5 TAB         &kp SPACE  &lt 4 BACKSPACE    &spacio_capa 3 SPACE  &mo 5  &sk RIGHT_ALT
+               &kp Q                    &kp W                    &kp E             &kp R      &kp T              &kp Y                 &kp U  &kp I          &kp O    &kp P
+               &altHoldFast LEFT_ALT A  &mt LCTRL S              &mt LEFT_SHIFT D  &kp F      &kp G              &kp H                 &kp J  &kp K          &kp L    &kp RA(N)
+&kp BACKSPACE  &kp Z                    &altHoldFast LEFT_ALT X  &kp C             &kp V      &kp B              &kp N                 &kp M  &kp COMMA      &kp DOT  &kp LEFT_ALT  &kp LEFT_ALT
+                                                                 &lt 5 TAB         &kp SPACE  &lt 4 BACKSPACE    &spacio_capa 3 SPACE  &mo 5  &sk RIGHT_ALT
             >;
         };
 
