@@ -141,6 +141,11 @@
             key-positions = <20 14>;
             layers = <0 1>;
         };
+
+        f11 {
+            bindings = <&kp F11>;
+            key-positions = <26 35>;
+        };
     };
 
     macros {
