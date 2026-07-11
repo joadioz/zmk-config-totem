@@ -77,20 +77,20 @@
 
         dvorak-qwerty {
             bindings = <&to 0>;
-            key-positions = <31 4>;
+            key-positions = <4 20>;
             layers = <1>;
         };
 
         qwert {
             bindings = <&to 1>;
-            key-positions = <31 4>;
-            layers = <0>;
+            key-positions = <4 20>;
+            layers = <0 6>;
         };
 
         f11 {
             bindings = <&kp F11>;
-            key-positions = <35 26>;
-            layers = <0 1>;
+            key-positions = <20 4>;
+            layers = <0 1 6>;
         };
 
         enter {
@@ -147,6 +147,11 @@
             bindings = <&kp LS(ENTER)>;
             key-positions = <33 36>;
             layers = <1 2>;
+        };
+
+        blender {
+            bindings = <&to 6>;
+            key-positions = <20 14>;
         };
     };
 
