@@ -282,10 +282,10 @@
 
         dvorack {
             bindings = <
-                  &kp COMMA       &kp RA(N)    &kp P             &kp Y           &kp F              &kp G                 &kp C  &kp H          &kp L  &kp LEFT_ALT
-                  &mt LEFT_ALT A  &mt LCTRL O  &mt LEFT_SHIFT E  &kp U           &kp I              &kp D                 &kp R  &kp T          &kp N  &kp S
-&kp LEFT_CONTROL  &kp DOT         &kp Q        &kp J             &kp K           &kp X              &kp B                 &kp M  &kp W          &kp V  &kp Z         &kp LEFT_ALT
-                                               &kp TAB           &sk LEFT_SHIFT  &lt 4 BACKSPACE    &spacio_capa 3 SPACE  &mo 5  &sk RIGHT_ALT
+                  &kp COMMA       &kp RA(N)    &kp P             &kp Y           &kp F              &kp G        &kp C  &kp H          &kp L  &kp LEFT_ALT
+                  &mt LEFT_ALT A  &mt LCTRL O  &mt LEFT_SHIFT E  &kp U           &kp I              &kp D        &kp R  &kp T          &kp N  &kp S
+&kp LEFT_CONTROL  &kp DOT         &kp Q        &kp J             &kp K           &kp X              &kp B        &kp M  &kp W          &kp V  &kp Z         &kp LEFT_ALT
+                                               &kp TAB           &sk LEFT_SHIFT  &lt 4 BACKSPACE    &lt 3 SPACE  &mo 5  &sk RIGHT_ALT
             >;
         };
 
