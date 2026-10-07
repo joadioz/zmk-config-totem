@@ -148,7 +148,7 @@
         };
 
         anki {
-            bindings = <&mo 6>;
+            bindings = <&to 6>;
             key-positions = <1 20>;
         };
     };
