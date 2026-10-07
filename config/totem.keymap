@@ -341,10 +341,10 @@
 
         anki {
             bindings = <
-        &trans  &trans     &trans     &trans  &trans    &trans  &trans     &trans  &trans     &trans
-        &kp R   &kp LC(Z)  &kp SPACE  &kp N1  &trans    &trans  &kp SPACE  &kp N1  &kp LC(Z)  &kp R
-&trans  &trans  &trans     &trans     &trans  &trans    &trans  &trans     &trans  &trans     &trans  &trans
-                           &trans     &trans  &trans    &trans  &trans     &trans
+        &trans          &trans     &to 0      &trans  &trans    &trans  &trans     &trans  &trans     &trans
+        &mt LEFT_ALT R  &kp LC(Z)  &kp SPACE  &kp N1  &trans    &trans  &kp SPACE  &kp N1  &kp LC(Z)  &kp R
+&trans  &trans          &trans     &trans     &trans  &trans    &trans  &trans     &trans  &trans     &trans  &trans
+                                   &kp TAB    &trans  &tog 4    &trans  &trans     &trans
             >;
         };
 
