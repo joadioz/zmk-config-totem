@@ -344,7 +344,7 @@
         &trans              &trans        &to 0      &trans  &trans    &trans  &trans     &trans  &trans     &trans
         &mt LEFT_ALT LC(Z)  &kp NUMBER_1  &kp SPACE  &kp R   &trans    &trans  &kp SPACE  &kp N1  &kp LC(Z)  &kp R
 &trans  &trans              &trans        &trans     &trans  &trans    &trans  &trans     &trans  &trans     &trans  &trans
-                                          &kp TAB    &trans  &tog 4    &trans  &trans     &trans
+                                          &kp TAB    &trans  &mo 4     &trans  &trans     &trans
             >;
         };
 
