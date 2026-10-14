@@ -77,7 +77,7 @@
         dvorak {
             bindings = <&to 0>;
             key-positions = <4 20>;
-            layers = <1 2 6>;
+            layers = <1 2>;
         };
 
         qwerty {
@@ -148,7 +148,7 @@
         };
 
         anki {
-            bindings = <&to 6>;
+            bindings = <&to 0>;
             key-positions = <20 0>;
         };
     };
@@ -324,7 +324,7 @@
         navegacion {
             bindings = <
                   &kp ESCAPE     &kp BACKSPACE  &kp UP        &kp LC(LS(TAB))  &kp LC(TAB)    &kp LA(F16)  &kp LA(LS(T))  &kp LA(LS(F12))    &kp LA(F)     &kp NUMBER_5
-                  &kp LC(LS(T))  &kp LEFT       &kp DOWN      &kp RIGHT        &kp LC(W)      &kp LA(F17)  &kp LCTRL      &kp RSHFT          &kp LEFT_ALT  &mo 7
+                  &kp LC(LS(T))  &kp LEFT       &kp DOWN      &kp RIGHT        &kp LC(W)      &kp LA(F17)  &kp LCTRL      &kp RSHFT          &kp LEFT_ALT  &mo 6
 &kp LEFT_CONTROL  &kp DEL        &kp LC(LS(N))  &kp ENTER     &kp LC(N)        &kp LC(T)      &kp LA(F15)  &kp LA(M)      &kp LC(RIGHT_ALT)  &kp LA(V)     &kp LA(RS(P))  &kp TAB
                                                 &kp LEFT_WIN  &kp LEFT_ALT     &none          &mo 5        &kp TAB        &kp LS(LA(E))
             >;
@@ -333,18 +333,9 @@
         unnicode_numeros {
             bindings = <
         &none   &kp N1  &kp N2  &kp N3     &kp TILDE        &kp EQUAL     &kp EXCLAMATION   &pregunta       &kp QUESTION  &kp EQUAL
-        &kp N0  &kp N4  &kp N5  &kp N6     &kp N0           &kp COLON     &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LEFT_ALT  &mo 7
+        &kp N0  &kp N4  &kp N5  &kp N6     &kp N0           &kp COLON     &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LEFT_ALT  &mo 6
 &trans  &trans  &kp N7  &kp N8  &kp N9     &em_dash         &kp SEMI      &kp LEFT          &kp ENTER       &kp RIGHT     &kp SEMI   &kp TAB
                         &trans  &kp SPACE  &kp BACKSPACE    &kp LEFT_ALT  &trans            &trans
-            >;
-        };
-
-        anki {
-            bindings = <
-        &trans              &trans        &to 0      &trans  &trans    &trans  &trans     &trans  &trans     &trans
-        &mt LEFT_ALT LC(Z)  &kp NUMBER_1  &kp SPACE  &kp R   &trans    &trans  &kp SPACE  &kp N1  &kp LC(Z)  &kp R
-&trans  &trans              &trans        &trans     &trans  &trans    &trans  &trans     &trans  &trans     &trans  &trans
-                                          &kp TAB    &trans  &mo 4     &trans  &trans     &trans
             >;
         };
 
@@ -354,15 +345,6 @@
         &trans  &kp LA(LS(A))  &kp LS(LA(S))      &kp LS(LA(D))  &trans    &trans  &kp LA(N4)  &kp LA(N5)  &kp LA(N6)  &trans
 &trans  &trans  &trans         &kp DOUBLE_QUOTES  &trans         &trans    &trans  &kp LA(N7)  &kp LA(N8)  &kp LA(N9)  &trans  &trans
                                &trans             &trans         &trans    &trans  &trans      &trans
-            >;
-        };
-
-        layer_7 {
-            bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
